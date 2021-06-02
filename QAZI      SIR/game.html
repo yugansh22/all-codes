@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Calculator</h1>
+        <link rel="stylesheet" href="calculator.css">
+        <title>javascript calculater</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script>
+
+            function calc(){
+                var n1 = parseFloat(document.getElementById('n1').value);
+                var n2 = parseFloat(document.getElementById('n2').value);
+                var oper = document.getElementById('operators').value;
+
+                if(oper === '+'){
+                    document.getElementById('result').value = n1+n2;
+                }if(oper === '-'){
+                    document.getElementById('result').value = n1-n2;
+                }if(oper === '/'){
+                    document.getElementById('result').value = n1/n2;
+                }if(oper === 'X'){
+                    document.getElementById('result').value = n1*n2;
+                }
+            }
+
+        </script>
+
+    </head>
+    <body>
+
+        <p>First number:-</p><input class="ok" type="text" id="n1"/><br><br>
+        <p>Second number:-</p><input class="ok" type="text" id="n2"/><br><br>
+
+        <select class="hy" id="operators">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="X">X</option>
+        </select><br><br>
+        <button class="too" onclick="calc();">=</button><br><br>
+        <p>Your answer:-</p><input class="ok" type="text" id="result"/>
+
+    </body>
+</html>

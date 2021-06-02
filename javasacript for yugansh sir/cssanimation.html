@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="yugansh.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title>Animation</title>
+
+        <style>
+            body{
+                font-family:arial,helvetioa;
+                background-color: #eee;
+            }
+
+            .card {
+                width: 300px;
+                height: 300px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                line-height: 300px;
+                margin: -150px;
+                background: white;
+                color: #o3446A;
+                text-align: center;
+                font-size: 40px;
+                box-shadow: 0 0 15px rgba(0,0,0,0.1);
+              
+            }
+            .animation{
+                animation-name: sample;
+                animation-duration: 1.1s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+
+            @keyframes sample{
+                5%{ border-radius: 0%; }
+                10%{background-color:aliceblue; }
+                15%{background-color:antiquewhite; }
+                20%{background-color:aqua ; }
+                25%{background-color:aquamarine ; }
+                30%{background-color:azure ; }
+                35%{background-color:beige ; }
+                40%{background-color:bisque ; }
+                45%{background-color:black ; }
+                50%{background-color:blanchedalmond ; }
+                55%{background-color:blue ; }
+                60%{background-color:blueviolet ; }
+                65%{background-color:brown ; }
+                70%{background-color:burlywood ; }
+                75%{background-color:cadetblue ; }
+                80%{background-color:chartreuse ; }
+                85%{background-color:chocolate ; }
+                90%{background-color:coral ; }
+                95%{background-color:cornflowerblue ; }
+                10%{background-color:cornsilk ; }
+                10%{background-color:crimson ; }
+                10%{background-color:cyan ; }
+                10%{background-color:darkblue ; }
+                10%{background-color:darkcyan ; }
+                10%{background-color:darkgoldenrod ; }
+                10%{background-color:darkgray ; }
+                10%{background-color:darkgreen ; }
+                10%{background-color:darkkhaki ; }
+                10%{background-color:darkmagenta ; }
+                10%{background-color:darkolivegreen ; }
+                10%{background-color:darkorange ; }
+                10%{background-color:darkorchid ; }
+                10%{background-color:darkred ; }
+                10%{background-color:darksalmon ; }
+                10%{background-color:darkseagreen ; }
+                10%{background-color:darkslateblue ; }
+                10%{background-color:darkslategray ; }
+                10%{background-color:darkturquoise ; }
+                10%{background-color:darkviolet ; }
+                100%{ border-radius: 50%;background-color:;color:dodgerblue;}
+            }
+            .button{
+                padding: 10px;
+                background-color: blue;
+                color: white;
+                border-radius: 30px;
+                border-color: black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="animtion"></div>
+        <h1 style="margin-bottom: 50px;">Yugansh master coder : css Animation</h1>
+
+        <div class="card">yugansh master</div>
+        <button class="start-animation button" onclick="myfunction()">Start animation</button>
+        <button class="stop-animation button">Stop animation</button><br><br>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+[1008/113046.486:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1027/190504.115:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1027/191024.950:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\yugansh\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\58954b51-a05f-41cf-bc04-783af4b18ece: The system cannot find the path specified. (0x3)
+[1027/185838.179:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1027/190138.817:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1027/190132.084:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
